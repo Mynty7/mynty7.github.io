@@ -18,21 +18,18 @@
 <body>
 
      <header>
-     <a href="/index.html"><div class="frontboard"> Mynty's Web </div></a>
-     <div class="more">
-        <!-- 
-        <a href="socials.html"><button class="articles">Socials</button></a>
-        -->
+      <a href="/index.html"><div class="frontboard"> Mynty's Web </div></a>
+     </header> 
 
-     </div>
-     </header>
      <div class="note">
-			All Social Links!
+		All Social Links!
 	 </div>
+
      <a href="https://www.youtube.com/channel/UCGwdtcLLkQV3dosS40Y6iuA"><div class="card">
-         <div class="topic">
-            Youtube
-         </div>
+         
+     <div class="topic">
+         Youtube
+    </div>
          
       
    </div>
