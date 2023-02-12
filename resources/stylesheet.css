@@ -9,7 +9,7 @@ body{
 header{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
-	background: grey;
+	background-image: url('background.jpeg.jpg');
 	border-radius: 15px;
 	
 }
@@ -18,7 +18,7 @@ header{
 	margin-left: 1%;
 	margin-right: 20%;
 	display: inline-block;
-	background-image: url('background.jpeg.jpg');
+	background: #202020;
 	border: none;
 	color: white;
 	border-radius: 15px;
