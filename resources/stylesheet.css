@@ -15,10 +15,12 @@ header{
 }
 .frontboard{
 	font-size: 250%;
-	display: block;
-	text-align: center;
+	display: inline-block;
 	background: #7FFFD4;
 	border: none;
+	border-radius: 20px;
+	margin-left: 1%;
+	margin-right: 20%;
 	color: black;
 	padding: 20px;
 	
