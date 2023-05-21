@@ -1,2 +1,2 @@
-# mynty7.github.io
-Gg
+# mynty.github.io
+Creating my personal website while learning HTML & CSS
