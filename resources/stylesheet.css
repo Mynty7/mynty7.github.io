@@ -14,15 +14,105 @@ header{
 	
 }
 .frontboard{
-	font-size: 250%;
+	font-size: 300%;
 	display: inline-block;
-	background: #7FFFD4;
 	border: none;
 	border-radius: 20px;
 	margin-left: 1%;
 	margin-right: 20%;
-	color: black;
+	color: #7FFFD4;
 	padding: 20px;
+	
+}
+
+
+.articles{
+	font-size: 200%;
+	display: inline-block;
+	margin: 5px;
+	background: #202020;
+	border: none;
+	border-radius: 15px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	color: white;
+	
+}
+.articles:hover{
+	transition-duration: 1s;
+    background: white;
+	color: #202020;
+	                                    
+}
+.desc{
+	display: block;
+	border: 2px solid #7FFFD4;
+	border-radius: 25px;
+	margin-top:10px;
+	padding: 20px;
+	color: #7FFFD4;
+	text-align: center;
+	font-family: "Lucida Console";
+	margin: 1%;
+	
+}
+.pagename{
+	font-size: 300%;
+	margin-top: none;
+	margin-bottom: 1%;	
+}
+.card{
+	display: block;
+	background: #7FFFD4;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin-top:10px;
+	padding: 20px;
+	color: black;
+	font-weight: bold;
+	font-size: 175%;
+	text-align: center;
+	font-family: "Century Gothic";
+}
+a:link, a:visited, a:hover, a:active{
+	    text-decoration: none;
+	    
+}
+
+.socialbutton{
+	display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 50px;
+    transition: transform 0.3s ease;
+
+}
+.socialbutton img{
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic{
+	font-size: 145%;
+	border-bottom: 2px solid black;
+	display: inline-block;
+	margin-bottom: 2%;
+	
+}
+.essay{
+	font-size: 150%;
+	margin: 1%;
 	
 }
 .more{
@@ -69,74 +159,5 @@ header{
 		display: inline;
 		
 	}
-	
-}
-
-.articles{
-	font-size: 200%;
-	display: inline-block;
-	margin: 5px;
-	background: #202020;
-	border: none;
-	border-radius: 15px;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-right: 1%;
-	padding-left: 1%;
-	color: white;
-	
-}
-.articles:hover{
-	            transition-duration: 1s;
-	                        background: white;
-	                                    color: #202020;
-	                                    
-}
-.desc{
-	display: block;
-	background: #7FFFD4;
-	border: 2px solid black;
-	border-radius: 25px;
-	margin-top:10px;
-	padding: 20px;
-	color: black;
-	text-align: center;
-	font-family: "Lucida Console";
-	margin: 1%;
-	
-}
-.pagename{
-	font-size: 300%;
-	margin-top: none;
-	margin-bottom: 1%;
-	
-}
-.card{
-	display: block;
-	background: #7FFFD4;
-	border: 2px solid black;
-	border-radius: 25px;
-	margin-top:10px;
-	padding: 20px;
-	color: black;
-	font-weight: bold;
-	font-size: 175%;
-	text-align: center;
-	font-family: "Century Gothic";
-}
-a:link, a:visited, a:hover, a:active{
-	    text-decoration: none;
-	    
-}
-.topic{
-	font-size: 145%;
-	border-bottom: 2px solid black;
-	display: inline-block;
-	margin-bottom: 2%;
-	
-}
-.essay{
-	font-size: 150%;
-	margin: 1%;
 	
 }
