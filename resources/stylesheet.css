@@ -85,8 +85,8 @@ a:link, a:visited, a:hover, a:active{
 	display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     line-height: 50px;
     transition: transform 0.3s ease;
