@@ -14,11 +14,11 @@ header{
 	
 }
 .frontboard{
-	font-size: 500%;
+	font-size: 375%;
 	display: block;
 	margin-left: 1%;
 	margin-right: 1%;
-	margin-top: 5%;
+	margin-top:3%;
 	color: #7FFFD4;
 	text-align: center;
 	animation: fade-down 0.5s;
