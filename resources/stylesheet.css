@@ -1,19 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+/*Welcome to my horrendous stylesheet!*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Playfair+Display:ital,wght@1,700&family=Raleway:ital,wght@1,100&display=swap');
-body{
-	background: linear-gradient(to right, #19322a, black);
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*All Decorations*/
+body
+{
+	background: url(Mynty.png);
+	background-size: cover; /* Make the image cover the entire background */
+    background-attachment: fixed; /* Keeps the image in place when scrolling */
 	color: #ffffff;
 	font-family: "Raleway";
-	
 }
-header{
+
+header
+{
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 	border-radius: 15px;
-	
 }
-.frontboard{
+
+.frontboard
+{
 	font-size: 375%;
 	display: block;
 	margin-left: 1%;
@@ -22,36 +31,47 @@ header{
 	color: #7FFFD4;
 	text-align: center;
 	animation: fade-down 0.5s;
-
 	
 }
 
-.subheader{
+.subheader
+{
 	display: block;
 	color: #7FFFD4;
 	text-align: center;
-	margin-left: 40%;
+	margin-left: 20%;
 	font-family: "Raleway";
 	animation: fade-down 0.7s;
 }
 
-.desc{
-	display: block;
+.container 
+{
+    text-align: center; 
+}
+
+.desc
+{
+	display: inline-block;
 	margin-top: 50px;
 	color: #7FFFD4;
 	text-align: center;
-	font-family: "Lora";
+	font-family: "Montserrat";
 	animation: fade-down 1s;
-
-
-	
+	background-color: #000000;
+	padding: 15px;
+	border: 2px solid #7FFFD4;
+	border-radius: 25px;
 }
-.pagename{
+
+.pagename
+{
 	font-size: 300%;
 	margin-top: none;
 	margin-bottom: 1%;	
 }
-.card{
+
+.card
+{
 	display: block;
 	background: #7FFFD4;
 	border: 2px solid black;
@@ -64,12 +84,9 @@ header{
 	text-align: center;
 	font-family: "Century Gothic";
 }
-a:link, a:visited, a:hover, a:active{
-	    text-decoration: none;
-	    
-}
 
-.socialbutton{
+.socialbutton
+{
 	display: inline;
     border-radius: 50%;
     overflow: hidden;
@@ -78,22 +95,27 @@ a:link, a:visited, a:hover, a:active{
     text-align: center;
     line-height: 50px;
 	margin: 10px ;
-
 }
-.socialbutton img{
+
+.socialbutton img
+{
 	width: 100%;
     height: 100%;
     display: inline;
-	
 }
 
-.section {
+.section 
+{
 	display: flex;
     justify-content: center;
     align-items: center;
 	margin-top: 15px;
 	animation: fade-up 1.2s;
 }
+
+/*Stuffs*/
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
 
 /*Keyframes*/
 @keyframes fade-down {
@@ -120,6 +142,7 @@ a:link, a:visited, a:hover, a:active{
 	}
 }
 
+/*Adjustments*/
 .more{
 	display: inline;
 }
