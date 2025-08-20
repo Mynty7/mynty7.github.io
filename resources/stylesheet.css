@@ -30,8 +30,7 @@ header
 	margin-top:5%;
 	color: #7FFFD4;
 	text-align: center;
-	animation: fade-down 0.5s;
-	
+	animation: rise-up 1s;
 }
 
 .subheader
@@ -40,19 +39,8 @@ header
 	color: #7FFFD4;
 	text-align: center;
 	font-family: "Montserrat";
-	animation: fade-down 0.7s;
+	animation: rise-up 2s;
 	margin: 10px;
-}
-
-.downheader
-{
-	display: block;
-	color: #7FFFD4;
-	text-align: center;
-	font-family: "Montserrat";
-	animation: fade-down 0.7s;
-	margin: 10px;
-	margin-bottom: 50px;
 }
 
 .container 
@@ -67,7 +55,7 @@ header
 	color: #7FFFD4;
 	text-align: center;
 	font-family: "Montserrat";
-	animation: fade-down 1s;
+	animation: rise-up 1.5s;
 	background-color: #000000;
 	padding: 15px;
 	border: 2px solid #7FFFD4;
@@ -81,7 +69,7 @@ header
 	color: #000000;
 	text-align: center;
 	font-family: "Montserrat";
-	animation: fade-down 1s;
+	animation: rise-up 1.5s;
 	background-color: #7FFFD4;
 	padding: 15px;
 	border: 2px solid #000000;
@@ -94,7 +82,7 @@ header
     justify-content: center;
     align-items: center;
 	margin-top: 15px;
-	animation: fade-up 1.2s;
+	animation: rise-up 1.5s;
 	width: 70%;
 	padding: 50px;
 	border-radius: 10%; ;
@@ -130,7 +118,7 @@ header
 	font-weight: bold;
 	font-size: 175%;
 	text-align: center;
-	font-family: "Century Gothic";
+	font-family: "Montserrat";
 }
 
 .socialbutton
@@ -158,13 +146,23 @@ header
     justify-content: center;
     align-items: center;
 	margin-top: 15px;
-	animation: fade-up 1.2s;
+	animation: rise-up 2s;
+}
+
+.inquire
+{
+	color:#7FFFD4;
+	font-size: 100%;
+	text-align: center;
+	font-family: "Montserrat";
+	margin-top: 50px;
+	animation: rise-up 3s;
 }
 
 /*Stuffs*/
 a:link, a:visited, a:hover, a:active{
 	text-decoration: none;
-
+}
 /*Keyframes*/
 @keyframes fade-down {
 	0%	{
@@ -190,6 +188,16 @@ a:link, a:visited, a:hover, a:active{
 	}
 }
 
+@keyframes rise-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /*Adjustments*/
 .more{
 	display: inline;
